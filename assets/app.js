@@ -21,7 +21,7 @@
   const search=document.getElementById('article-search'),chips=[...document.querySelectorAll('[data-filter]')],cards=[...document.querySelectorAll('.article-card')],count=document.getElementById('result-count'),empty=document.getElementById('no-results');
   if(search&&chips.length){let subject='すべて';
     function update(){const query=search.value.trim().normalize('NFKC').toLocaleLowerCase('ja');let visible=0;
-      cards.forEach(card=>{const matchesSubject=subject==='すべて'||card.dataset.subject===subject;const matchesQuery=card.dataset.title.normalize('NFKC').toLocaleLowerCase('ja').includes(query);card.hidden=!(matchesSubject&&matchesQuery);if(!card.hidden)visible++;});
+      cards.forEach(card=>{const matchesSubject=subject==='すべて'||card.dataset.subject===subject||(subject==='面白勉強'&&(card.dataset.tags||'').split(/\s+/).includes('面白勉強'));const matchesQuery=card.dataset.title.normalize('NFKC').toLocaleLowerCase('ja').includes(query);card.hidden=!(matchesSubject&&matchesQuery);if(!card.hidden)visible++;});
       count.textContent=`${visible}件の記事`;empty.hidden=visible!==0;
     }
     function setSubject(value){subject=value;chips.forEach(c=>{const selected=c.dataset.filter===value;c.classList.toggle('is-active',selected);c.setAttribute('aria-pressed',String(selected));});update();}
