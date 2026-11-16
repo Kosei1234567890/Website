@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://studymaster.jp/</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://studymaster.jp/subjects/english/</loc><lastmod>2026-11-16</lastmod></url>
-<url><loc>https://studymaster.jp/subjects/math/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://studymaster.jp/subjects/japanese/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://studymaster.jp/subjects/history/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://studymaster.jp/subjects/civics/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://studymaster.jp/subjects/math/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/subjects/japanese/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/subjects/history/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/subjects/civics/</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://studymaster.jp/articles/english-subjunctive/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://studymaster.jp/articles/english-relatives/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://studymaster.jp/articles/math-quadratic/</loc><lastmod>2026-11-12</lastmod></url>
@@ -33,4 +33,9 @@
 <url><loc>https://studymaster.jp/articles/civics-gdp/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://studymaster.jp/articles/civics-comparative-advantage/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://studymaster.jp/articles/english-infinitive-gerund/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/articles/english-participial-clauses/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/articles/math-linear-recurrence/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/articles/japanese-nu-identification/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/articles/history-great-depression-new-deal/</loc><lastmod>2026-11-16</lastmod></url>
+<url><loc>https://studymaster.jp/articles/civics-exchange-rate-yen/</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>
